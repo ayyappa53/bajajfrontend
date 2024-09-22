@@ -1,0 +1,124 @@
+/* Container for the input form */
+.input-form-container {
+  width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid #d1d1d1;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Label for textareas and select boxes */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2E77D0;
+  /* Updated label color to a blue tone */
+}
+
+/* Styling the textarea */
+.json-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d1d1;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: #f5f7fa;
+  /* Light background for textarea */
+  color: #333;
+  transition: border 0.2s;
+}
+
+.json-input:focus {
+  border: 1px solid #2E77D0;
+  /* Blue border on focus */
+  outline: none;
+  box-shadow: 0 0 8px rgba(46, 119, 208, 0.3);
+}
+
+/* Styling for submit button */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2E77D0;
+  /* Blue background */
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #1C5AA3;
+  /* Darker blue on hover */
+}
+
+/* Styling the error text */
+.error-text {
+  color: #e74c3c;
+  /* Red color for error text */
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+/* Response Section Styling */
+.filtered-response {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #f1f9ff;
+  /* Light blue background for the response section */
+  border: 1px solid #d1d1d1;
+  border-radius: 6px;
+}
+
+/* Styling for the response text */
+.filtered-response pre {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2c3e50;
+  /* Dark blue-gray text color */
+}
+
+/* Styling the React Select component */
+.css-2b097c-container {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.css-1okebmr-indicatorSeparator {
+  display: none;
+  /* Hide separator */
+}
+
+.css-319lph-ValueContainer {
+  padding: 10px 12px;
+  /* Increase padding */
+  background-color: #f5f7fa;
+  /* Light background */
+  border-radius: 6px;
+  border: 1px solid #d1d1d1;
+}
+
+/* Adjust selected and hovered items in the select dropdown */
+.css-1uccc91-singleValue {
+  color: #333;
+}
+
+.css-1n7v3ny-option--is-selected {
+  background-color: #2E77D0;
+  /* Blue background for selected option */
+  color: white;
+}
+
+.css-9gakcf-option:hover {
+  background-color: #f1f9ff;
+  /* Light blue hover for options */
+  color: #2E77D0;
+}
